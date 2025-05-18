@@ -4,7 +4,7 @@ public class Car {
 
     private Specification specification;
 
-    // passing the arguments to constructor through auto-wiring .
+    // passing the arguments to constructor through auto-wiring.
     public Car(Specification specification) {
         this.specification = specification;
     }
